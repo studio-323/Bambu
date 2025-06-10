@@ -24,7 +24,7 @@ a:link{
   .hidden {
     opacity: 0;
     filter: blur(5px);
-    transform: translateY(50%);
+    transform: translateX(-50%);
     transition: all 0.80s;
   }
   
