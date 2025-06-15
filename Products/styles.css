@@ -8,10 +8,9 @@ body{
     user-select: none !important;         /* Standard syntax */
 }
 
-    html{
-        scroll-behavior: smooth;
-    }
-
+  html{
+      scroll-behavior: smooth;
+  }
 
 a:link{
     text-decoration: none!important;
@@ -172,6 +171,11 @@ a:link{
           font-family: inter;
           font-size: 12px;
           text-decoration: underline;
+          transition: 0.2s;
+        }
+
+        .shortcuts a:hover{
+          transform: scale(0.9);
         }
 
         .shortcuts::-webkit-scrollbar{
@@ -265,7 +269,7 @@ a:link{
               }
 
               .child:hover{
-                transform: scale(0.9);
+                transform: scale(0.96);
 
                 img{
                     filter: brightness(92%); /* Reduces brightness by 50% */
