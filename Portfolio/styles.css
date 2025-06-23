@@ -242,6 +242,8 @@ a:link{
                 .img{
                   border-radius: 16px;
                   object-fit: cover;
+                  transition: 0.2s;
+      
                 }
               }
               
@@ -256,7 +258,13 @@ a:link{
             }
 
             .child:hover{
-              transform: scale(0.96)
+              transform: scale(0.96);
+
+              .img-container{
+                .img{
+                  filter: brightness(92%); /* Reduces brightness by 50% */
+                }
+              }
             }
           }
 
