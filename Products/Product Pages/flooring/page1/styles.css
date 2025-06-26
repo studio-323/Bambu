@@ -201,7 +201,7 @@ a:link{
 
               .title{
                 font-family: inter;
-                font-size: 16px;
+                font-size: 14px;
                 color: white;
               }
             }
@@ -225,27 +225,26 @@ a:link{
           .page01{
             background-color: white;
             width: 100%;
-            height: 90vh;
+            height: auto;
             box-sizing: border-box;
-            padding-left: 26px;
-            padding-right: 26px;
-            padding-bottom: 32px;
+            padding-left: 18px;
+            padding-right: 18px;
             margin-top: 0px;
             
             .btn-back{
-              width: 60px;
+              width: 40px;
               height: 40px;
               background-color: #EDEDED;
               border-radius: 100px;
               display: flex;
               justify-content: center;
               align-items: center;
-              margin-top: 80px;
+              margin-top: 70px;
               transition: 0.2s;
 
               .material-symbols-rounded{
                 color: black;
-                font-size: 18px;
+                font-size: 14px;
               }
 
               .details{
@@ -262,19 +261,21 @@ a:link{
 
               .material-symbols-rounded{
                 color: white;
+                font-size: 12px;
               }
 
               .details{
                 display: block;
                 color: white;
+                font-size: 12px
               }
             }
 
             .img-container{
               width: 100%;
-              height: 80%;
+              height: 66%;
               background-color: #EDEDED;
-              margin-top: 16px;
+              margin-top: 8px;
               border-radius: 18px;
 
               .img{
@@ -305,7 +306,7 @@ a:link{
 
             .title{
               font-family: inter;
-              font-size: 24px;
+              font-size: 18px;
               font-weight: 700;
               margin-top: 12px;
               margin-top: 54px;
@@ -314,8 +315,8 @@ a:link{
             .divider{
               width: 100%;
               height: 1px;
-              margin-top: 24px;
-              margin-bottom: 24px;
+              margin-top: 18px;
+              margin-bottom: 18px;
               background-color: #D9D9D9;
             }
 
@@ -327,7 +328,7 @@ a:link{
 
               .material-symbols-rounded{
                 color: black;
-                font-size: 36px;
+                font-size: 26px;
               }
 
               .text-container{
@@ -335,11 +336,12 @@ a:link{
 
                 .title{
                   margin-top: 0px;
-                  font-size: 16px;
+                  font-size: 14px;
                 }
 
                 .details{
                   font-family: inter;
+                  font-size: 12px;
                 }
               }
             }
