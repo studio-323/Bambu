@@ -122,6 +122,7 @@ a:link{
             height: 108px;
             background-color: rgb(255, 255, 255);
             position: fixed;
+            z-index: 4;
             bottom: 0;
             border-top: 1px solid #D9D9D9;
             box-sizing: border-box;
