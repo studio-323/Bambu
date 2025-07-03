@@ -8,6 +8,11 @@ body{
     user-select: none !important;         /* Standard syntax */
 }
 
+    html{
+        scroll-behavior: smooth;
+    }
+
+
 a:link{
     text-decoration: none!important;
     -webkit-tap-highlight-color: transparent;

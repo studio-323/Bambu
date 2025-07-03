@@ -225,7 +225,7 @@ a:link{
           .page01{
             background-color: white;
             width: 100%;
-            height: auto;
+            height: 800px;
             box-sizing: border-box;
             padding-left: 18px;
             padding-right: 18px;
@@ -245,6 +245,7 @@ a:link{
               .material-symbols-rounded{
                 color: black;
                 font-size: 14px;
+                margin-left: 6px;
               }
 
               .details{
@@ -262,6 +263,7 @@ a:link{
               .material-symbols-rounded{
                 color: white;
                 font-size: 12px;
+                margin-left: 0px;
               }
 
               .details{
@@ -273,7 +275,7 @@ a:link{
 
             .img-container{
               width: 100%;
-              height: 66%;
+              height: 76%;
               background-color: #EDEDED;
               margin-top: 8px;
               border-radius: 18px;
