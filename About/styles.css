@@ -85,11 +85,563 @@ a:link{
 
 /*DESKTOP VIEW ONLY*/
 .desktop{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     height: 100vh;
 
+    .top-nav-bar{
+        width: 100%;
+        height: 50px;
+        background-color: #ffffff;
+        border-bottom: 1px solid #D9D9D9;
+        box-sizing: border-box;
+        padding-left: 160px;
+        padding-right: 160px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        z-index: 6;
+
+
+        .nav-btn-container{
+            width: 500px;
+            height: 100%;
+            display: flex;
+            gap: 36px;
+
+            img{
+                width: 23px;
+                height: 28px;
+            }
+
+            .text-container{
+                width: 100%;
+                height: auto;
+                display: flex;
+                gap: 32px;
+                align-items: center;
+
+                .details{
+                    font-size: 14px;
+                    color: #000000;
+                    font-family: inter;
+                }
+
+                .details:hover{
+                    text-decoration: underline ;
+                }
+
+            }
+        }
+
+        .quotation{
+            width: 160px;
+            height: 100%;
+            background-color: #1D3923;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.3s;
+        
+            .details{
+                font-size: 12px;
+                color: #ffffff;
+                font-family: inter;
+            }
+        }
+
+        .quotation:hover{
+            background-color: black;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .grid{
+            width: 36%;
+            height: auto;
+            display: grid;
+            gap: 10px;
+            padding-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+
+            .page{
+                box-sizing: border-box;
+                padding-left: 32px;
+                padding-right: 32px;
+                padding-top: 36px;
+                padding-bottom: 36px;
+                width: 100%;
+                height: 100%;
+                box-sizing: border-box;
+                background-color: white;
+
+                .title{
+                    font-family: inter;
+                    font-size: 26px;
+                    font-weight: 700;
+                }                
+                
+                .details{
+                    font-family: inter;
+                    font-size: 14px;
+                    font-weight: 500;
+                    margin-top: 24px;
+                    color: #5c5c5c;
+                }
+
+                .divider{
+                    width: 100%;
+                    height: 1px;
+                    background-color: #D9D9D9;
+                    margin-top: 40px;
+                    margin-bottom: 40px;
+                }
+
+                .flex-box{
+                    display: flex;
+                    gap: 16px;
+                    width: 100%;
+                    height: auto;
+                  
+                  .material-symbols-rounded{
+                    color: #1D3923;
+                    font-size: 36px;
+
+                    font-variation-settings:
+                    'FILL' 0,
+                    'wght' 400,
+                    'GRAD' 0,
+                    'opsz' 24
+
+                  }
+
+                  .title{
+                      font-family: inter;
+                      font-size: 18px;
+                      font-weight: 700;
+                  }                
+                  
+                  .details{
+                      font-family: inter;
+                      font-size: 14px;
+                      font-weight: 500;
+                      margin-top: 8px;
+                      color: #5c5c5c;
+                  }
+                }
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              .page2{
+                box-sizing: border-box;
+                padding-left: 32px;
+                padding-right: 32px;
+                padding-top: 200px;
+                padding-bottom: 200px;
+                width: 100%;
+                height: 100%;
+                box-sizing: border-box;
+                background-color: white;
+
+                .title{
+                    font-family: inter;
+                    font-size: 26px;
+                    font-weight: 700;
+                }                
+                
+                .details{
+                    font-family: inter;
+                    font-size: 14px;
+                    font-weight: 500;
+                    margin-top: 24px;
+                    color: #5c5c5c;
+                }
+
+                .divider{
+                    width: 100%;
+                    height: 1px;
+                    background-color: #D9D9D9;
+                    margin-top: 40px;
+                    margin-bottom: 40px;
+                }
+
+                .flex-box{
+                    display: flex;
+                    gap: 16px;
+                    width: 100%;
+                    height: auto;
+                  
+                  .material-symbols-rounded{
+                    color: #1D3923;
+                    font-size: 36px;
+
+                    font-variation-settings:
+                    'FILL' 0,
+                    'wght' 400,
+                    'GRAD' 0,
+                    'opsz' 24
+
+                  }
+
+                  .title{
+                      font-family: inter;
+                      font-size: 18px;
+                      font-weight: 700;
+                  }                
+                  
+                  .details{
+                      font-family: inter;
+                      font-size: 14px;
+                      font-weight: 500;
+                      margin-top: 8px;
+                      color: #5c5c5c;
+                  }
+                }
+            }
+        }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .mobile{
     display: none;
