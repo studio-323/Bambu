@@ -73,6 +73,14 @@ body{
     transition-delay: 700ms ;
   }
 
+  .title{
+    font-family: inter;
+  }
+
+  .details{
+    font-family: inter;
+  }
+
 
 .container{
     width: auto;
