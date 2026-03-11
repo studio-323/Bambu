@@ -27,45 +27,7 @@ a:link{
     height: 100%;
   }
 
-  .hidden {
-    opacity: 0;
-    filter: blur(5px);
-    transform: translateY(50%);
-    transition: all 0.80s;
-  }
-  
-  .show {
-    opacity: 1;
-    filter: blur(0px);
-    transform: translateX(0%);
-  }
-  
-  .logo:nth-child(1) {
-    transition-delay: 100ms ;
-  }
-  
-  .logo:nth-child(2) {
-    transition-delay:200ms ;
-  }
-  
-  .logo:nth-child(3) {
-    transition-delay:300ms ;
-  }
-  
-  .logo:nth-child(4) {
-    transition-delay:400ms ;
-  }
-  
-  .logo:nth-child(5) {
-    transition-delay: 500ms ;
-  }
-  .logo:nth-child(6) {
-    transition-delay: 600ms ;
-  }
-  
-  .logo:nth-child(7) {
-    transition-delay: 700ms ;
-  }
+
 
 
 
@@ -228,6 +190,15 @@ a:link{
               font-size: 22px;
               font-weight: 700;
               color: #1D3923;
+
+            }
+
+            .details{
+              font-family: inter;
+              font-size: 14px;
+              font-weight: 500;
+              width: 480px;
+              color: #585858;
 
             }
           }

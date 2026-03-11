@@ -304,6 +304,18 @@
             padding-top: 120px;
             margin-left: auto;
             margin-right: auto;
+            display: grid;
+
+                .details-slide{
+                    font-family: inter;
+                    font-weight: 400;
+                    font-size: 42px;
+                    padding-top: 8px;
+                    width: 100%;
+                    color: #585858;
+                    margin-top: 100px;
+                }
+
             
                 .title{
                     font-family: inter;
@@ -493,6 +505,63 @@
             }
         }
 
+        .table{
+            width: 70%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 22px;
+
+            .img{
+                border-radius: 14px;
+                 border: 1px solid #d9d9d9;
+
+            }
+        }
+
+
+        
+        .text-contain{
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 200px;
+
+            .title{
+                font-family : inter;
+                font-weight: 700;
+                font-size: 42px;
+            }
+        }
+    
+
+        .page-process{
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            gap: 42px;
+            margin-top: 0px;
+
+            .container{
+                width: 366px;
+                height: auto;
+                margin-top: 62px;
+
+
+            .title{
+                font-family : inter;
+                font-weight: 700;
+                font-size: 20px;
+            }
+            .details{
+                font-family : inter;
+                font-weight: 500;
+                font-size: 16px;
+                color: #585858;
+            }
+            }
+        }
 
 
 
@@ -1138,6 +1207,19 @@
                         }
                     }
                 }
+
+                .table{
+                    width: 100%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 22px;
+
+                    .img{
+                        border-radius: 14px;
+                        border: 1px solid #d9d9d9;
+
+                    }
+                }   
             }
         }
 
